@@ -5,7 +5,7 @@ var gl;
 var points = [];
 var colors = [];
 
-var NumTimesToSubdivide = 3;
+var NumTimesToSubdivide = 2;
 
 window.onload = function init()
 {
@@ -75,9 +75,9 @@ function triangle( a, b, c, color )
     // add colors and vertices for one triangle
 
     var baseColors = [
-        vec3(1.0, 0.0, 0.0),
-        vec3(0.0, 1.0, 0.0),
-        vec3(0.0, 0.0, 1.0),
+        vec3(1.0, 0.0, 1.0),
+        vec3(1.0, 1.0, 0.0),
+        vec3(0.0, 1.0, 1.0),
         vec3(0.0, 0.0, 0.0)
     ];
 
